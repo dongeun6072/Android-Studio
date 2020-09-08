@@ -18,11 +18,13 @@ public class MainActivity extends AppCompatActivity {
 
         Button Button1 = (Button)findViewById(R.id.Button1);
         Button button2 = (Button)findViewById(R.id.button2);
+        Button button3 = (Button)findViewById(R.id.button3);
+
         Button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));
-                startActivity(myIntent);
+                startActivity(myIntent); // 웹 브라우저 실행된다.
             }
         });
 
@@ -30,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1000-1000"));
+                startActivity(myIntent); // 전화 앱이 실행된다.
+            }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getApplicationContext(), newActivity.class);
                 startActivity(myIntent);
             }
         });
