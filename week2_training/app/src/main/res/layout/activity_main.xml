@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.Week2_training.MainActivity">
+    tools:context="com.example.week2_training.MainActivity">
 
     <Button
         android:id="@+id/button1"
@@ -37,7 +37,6 @@
         android:layout_marginStart="92dp"
         android:layout_marginLeft="92dp"
         android:layout_marginTop="112dp"
-        android:fontFamily="@font/bccardb"
         android:text="즐겨찾기 앱"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -51,7 +50,6 @@
         android:layout_marginStart="256dp"
         android:layout_marginLeft="256dp"
         android:layout_marginTop="528dp"
-        android:fontFamily="@font/bccardc"
         android:text="By 이동은"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.Week2_training.MainActivity">
+    tools:context="com.example.week2_training.MainActivity">
 
 
     <TextView
@@ -14,7 +14,6 @@
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="44dp"
-        android:fontFamily="@font/bccardb"
         android:text="즐겨찾는 웹 사이트"
         android:textSize="35dp"
         android:textStyle="bold"
@@ -73,9 +72,9 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginLeft="148dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="68dp"
         android:onClick="OnButton7clicked"
         android:text="메인화면으로"
         app:layout_constraintStart_toStartOf="parent"

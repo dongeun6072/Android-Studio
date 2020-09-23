@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.Week2_training.MainActivity">
+    tools:context="com.example.week2_training.MainActivity">
 
     <TextView
         android:id="@+id/textView4"
@@ -13,7 +13,6 @@
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="80dp"
-        android:fontFamily="@font/bccardb"
         android:text="자주 전화하는 사람들"
         android:textSize="35dp"
         android:textStyle="bold"
@@ -26,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="36dp"
         android:onClick="OnButton12clicked"
         android:text="김모씨"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,8 +71,8 @@
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginLeft="152dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="155dp"
         android:layout_marginTop="48dp"
         android:onClick="OnButton11clicked"
         android:text="메인화면으로"
